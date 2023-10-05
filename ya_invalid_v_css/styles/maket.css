@@ -1,0 +1,36 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: #333;
+    color: #fff;
+}
+h1,h2,h3,h4,h5,h6{
+    margin: 0px;
+    padding: 0px;
+}
+#wrapper{
+    outline: 1px solid red;
+    width: 1120px;
+    height: fit-content;
+    padding-top: 30px;
+    box-sizing: border-box;
+    margin: auto;
+}
+#number{
+    width: fit-content;
+    height: fit-content;
+    margin: 0px auto;
+    
+}
+#plus{
+    color: rgb(196, 67, 138);
+}
+#zayavka{
+    width: fit-content;
+    height: fit-content;
+    float: right;
+    margin-bottom: 20px;
+}
+#navig{
+    outline:1px solid black
+}
