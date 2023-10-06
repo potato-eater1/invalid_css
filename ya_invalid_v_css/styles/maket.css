@@ -12,25 +12,33 @@ h1,h2,h3,h4,h5,h6{
     outline: 1px solid red;
     width: 1120px;
     height: fit-content;
-    padding-top: 30px;
-    box-sizing: border-box;
     margin: auto;
 }
+
+#header-contacts{
+    outline:1px solid red;
+    height: 60px;
+    position: relative;
+}
+
 #number{
+    outline:1px solid red;
     width: fit-content;
-    height: fit-content;
-    margin: 0px auto;
-    
+    height: inherit;
+    margin: auto;
+    display: flex;
+    align-items: center;
 }
 #plus{
     color: rgb(196, 67, 138);
 }
 #zayavka{
+    outline:1px solid red;
     width: fit-content;
-    height: fit-content;
-    float: right;
-    margin-bottom: 20px;
-}
-#navig{
-    outline:1px solid black
+    height: inherit;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    display: flex;
+    align-items: center;
 }
