@@ -18,13 +18,11 @@ h1,h2,h3,h4,h5,h6{
 }
 
 #header-contacts{
-    outline:1px solid red;
     height: 60px;
     position: relative;
 }
 
 #number{
-    outline:1px solid red;
     width: fit-content;
     height: inherit;
     margin: auto;
@@ -37,7 +35,6 @@ h1,h2,h3,h4,h5,h6{
 }
 
 #zayavka{
-    outline:1px solid red;
     width: fit-content;
     height: inherit;
     position: absolute;
@@ -45,4 +42,22 @@ h1,h2,h3,h4,h5,h6{
     right: 0px;
     display: flex;
     align-items: center;
+}
+#header-navig{ 
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.header-child{
+    outline: 1px solid red;
+    width: 50px;
+    height: fit-content;
+    
+}
+#poisk{
+    flex-shrink: 0;
+}
+#poisk > a{
+    text-decoration: none;
+    color: #fff;
 }
